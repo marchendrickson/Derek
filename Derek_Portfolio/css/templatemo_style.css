@@ -19,7 +19,14 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
+h1, h2, h3, h4, h5, h6, span, p {
+	font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+	font-size: large;
+}
+.carousel-header {
+	background-color: rgba(150,150,150,0.71);
+}
+
 
 * {
 	-webkit-border-radius: 0 !important;
@@ -90,9 +97,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (min-width: 768px) {
     #templatemo-carousel .carousel-caption p {
-        margin-bottom: 20px;
-        line-height: 1.4;
-        font-size: 21px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+	font-size: 21px;
     }
 
     #templatemo-carousel .carousel-caption {
@@ -385,9 +392,9 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-line-header span {
-    font-size: 18px;
-    float :left;
-    margin-top: 10px;
+	font-size: 24px;
+	float : left;
+	margin-top: 10px;
 }
 
 .team_box  div {
