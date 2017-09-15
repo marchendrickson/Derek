@@ -60,14 +60,17 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 /* ------ Carousel ----- */
 
 #templatemo-carousel {
-    background: url('../images/waterfall.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow-x: hidden;
-    margin-bottom:0;
-    height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center fixed;
+	background-image: url(../images/glacier_opening.png);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	margin-bottom: 0;
+	height: 500px;
 }
 
 #templatemo-carousel .carousel-caption {
@@ -107,14 +110,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 @media (max-width: 1024px) {
     #templatemo-carousel {
-        background: url('../images/waterfall.jpg') no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        overflow-x: hidden;
-        margin-bottom:0;
-        height: 500px;
+	background: url('../images/glacier_opening.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-x: hidden;
+	margin-bottom: 0;
+	height: 500px;
     }
 }
 
@@ -262,10 +265,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.png') ;
-    font-family:  'Open Sans', sans-serif;
-    min-height:590px;
-    color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	min-height: 590px;
+	color: #ffffff;
+	background-color: #7EC0EE;
 
 }
 .templatemo-line-header {
@@ -621,7 +624,7 @@ ul.templatemo-project-gallery  li  a img:hover {
 }
 
 
-@media (max-width:991px) {
+@media (max-width : 1024px ){
     .team-inner {
         margin-top: 20px;
         margin-bottom: 20px;
